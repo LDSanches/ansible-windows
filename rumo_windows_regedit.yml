@@ -1,6 +1,7 @@
 ---
 - name: Windows server
   hosts: windows
+  gather_facts: no
 
   tasks:
 
